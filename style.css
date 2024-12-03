@@ -1,0 +1,100 @@
+*{margin: 0;
+padding:0;}
+
+body {
+  background-color: hsl(217, 54%, 11%);
+  font-size: 18px;
+  
+}
+.wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.container{
+  background-color:hsl(216, 50%, 16%) ;
+  width: 360px;
+  height: 640px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 5px 10px 30px rgba(1, 1, 1, 0.5)
+  
+  
+}
+
+
+.img_big{
+  width: 300px;
+  height: 320px;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+.h3_form{
+color: white;
+margin-top: 20px;
+font-weight: 700;
+}
+
+.p_form{
+  color: hsla(227, 42%, 85%, 0.812);
+  margin-top: 20px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+
+b{
+  color: hsl(178, 100%, 50%);
+  transform: translateX(-30px);
+  
+  
+}
+
+.left_form{
+  
+  color: hsl(215, 51%, 70%);
+  
+
+}
+.img_form{width: 15px;
+height: 15px;
+transform:translateX(35px)}
+
+.eth_form{ display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  
+  
+}
+
+
+.line{background-color: hsl(215, 32%, 27%);
+  border: none;
+  height: 1px;
+  margin-top: 20px;
+  
+
+}
+
+.img_avatar_div{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-top: 20px;
+}
+.img_avatar{width: 50px;
+border-color: white;
+border: 1px solid white;
+border-radius: 50%;
+}
+
+.last_text{color: white;
+transform: translateX(15px);
+}
+
+span{color:hsl(215, 51%, 70%) ;}
